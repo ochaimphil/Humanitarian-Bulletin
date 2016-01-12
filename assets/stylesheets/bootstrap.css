@@ -5833,11 +5833,11 @@ button.close {
     padding-left: 15px;
     margin-bottom: 30px;
     color: #026bb5;
-    font-size: 16px; }
+    font-size: 14px; }
     .sidebar-module ul li {
       margin-bottom: 5px; }
   .sidebar-module table {
-    font-size: 12px; }
+    font-size: 11px; }
 
 .img-holder {
   margin-bottom: 20px; }
@@ -5851,6 +5851,10 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: 20px; }
+
+h4 {
+  margin: 5px 0;
+  font-size: 15px; }
 
 .blog-post {
   margin-bottom: 50px;
