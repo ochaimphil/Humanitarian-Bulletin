@@ -1210,10 +1210,10 @@ h6, .h6 {
 h1, .h1 {
   font-size: 36px; }
 
-h2, .h2 {
+h2, .h2, .ocha_content_heading {
   font-size: 30px; }
 
-h3, .h3 {
+h3, .h3, .ocha_content_heading2 {
   font-size: 24px; }
 
 h4, .h4 {
@@ -5869,13 +5869,14 @@ button.close {
 .img-holder {
   margin-bottom: 20px; }
 
-h2 {
+h2,  .ocha_content_heading  {
   font-weight: bold;
   font-size: 33px;
   margin-top: 0;
-  color: #026bb5; }
+  color: #026bb5;
+   }
 
-h3 {
+h3, .ocha_content_heading2 {
   font-weight: bold;
   font-size: 20px; }
 
@@ -5885,7 +5886,7 @@ h4 {
 
 .blog-post {
   margin-bottom: 50px;
-  overflow: auto; }
+  /* overflow: auto; */ }
   .blog-post img {
     width: 100%; }
 
